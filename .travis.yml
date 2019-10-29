@@ -6,7 +6,7 @@ addons:
   sonarcloud:
     organization: "scarspain"
     token:
-      secure: "travis encrypt 522515c360dbe566c3004cccc07245e71d7bbfc4"
+      secure: "522515c360dbe566c3004cccc07245e71d7bbfc4"
 script:
 - ant build
 - sonar-scanner
